@@ -13,8 +13,10 @@ body{
     align-items: center;
     height: 100vh;
     background-color: var(--light-gray);
-    font-size: 16px;
+    font-size: 15px;
     font-family: var(--prime-font);
+    font-weight: 400;
+    color: var(--Grayish-blue);
 }
 
 :root{
@@ -56,11 +58,19 @@ body{
 .content{
 
     text-align: center;
+    padding: 5px 15px;
 }
 
 h2{
 
     font-family: var(--prime-font);
-    line-height: 1.3rem;
-    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--Dark-blue);
+}
+
+.margin-top{
+
+    margin-top: 0.9rem;
 }
